@@ -1,0 +1,14 @@
+extends: airbnb-baseer attached.
+Server running in port 300
+rules:
+ padded-blocks:
+  - error
+ no-tralling-spaces:
+  - error
+    skipBlankLines: true
+ linebreak-style: off
+ curly:
+  - error
+  - multi
+  - consistent
+ import/no-extraneous-dependencies: off

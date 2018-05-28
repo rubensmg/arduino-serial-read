@@ -1,0 +1,34 @@
+{
+  "name": "arduino-serial-read",
+  "version": "1.0.0",
+  "description": "A simlpe NodeJS API to retrieve data from Arduino board and expose using HTTP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubensmg/arduino-serial-read.git"
+  },
+  "author": "Rubens Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubensmg/arduino-serial-read/issues"
+  },
+  "homepage": "https://github.com/rubensmg/arduino-serial-read#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "hapi": "^17.5.0",
+    "install": "^0.11.0",
+    "npm": "^6.1.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "serialport": "^6.2.0"
+  }
+}
