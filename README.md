@@ -15,17 +15,17 @@ Initially it is necessary to clone the repository
 $ git clone https://github.com/rubensmg/arduino-serial-read.git
 ```
 
-After that, open two terminals, one for initialization of the API and another for initialization of the script. With this, execute the following command:
+After that, open two terminals, one for initialization of the API and another for initialization of the script. With this, execute the following commands:
 Terminal 1 (API):
 ```
-$ npm api
+$ npm start
 ```
 Terminal 2 (Script):
 ```
 $ node ./board.js
 ```
 
-To stop the running, press `Ctrl+C` in terminals.
+To stop the running, press `Ctrl+C` in the two terminals.
 
 ## Using
 A simple description of all endpoints in API
